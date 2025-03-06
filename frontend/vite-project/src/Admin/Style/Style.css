@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#adminHeader
+{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(41, 78, 123);
+    text-align: center;
+    color: white;
+}
+
+
+
+#adminFooter
+{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(27, 32, 43);
+    /* color: white; */
+    
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+
+
+#adminForm
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 50px;
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+#adminData
+{
+    
+    padding-bottom: 50px;
+}
+
+#namedisplay
+{
+    padding: 10px;
+    background-color: rgb(55, 43, 140);
+    color: white;
+    text-align: center;
+}
+
+#mainData
+{
+    display: flex;
+    background-color: whitesmoke;
+    width: 20%;
+    height: 100vh;
+    
+}
+#mainLeftMenu
+{
+    width: 20%;
+    padding: 20px;
+}
+#mainRightData
+{
+    width: 80%;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.cart{
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+
+#checkout{
+    /* margin: "auto"; */
+    width: 50%;
+    /* height: 50%; */
+    /* margin-left: 400px; */
+    margin: auto;
+    margin-top: 50px;
+   
+}
+.checkoutbtn{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    
+}
+
+#adminFooter{
+    position: fixed;
+    bottom: 0px;
+
+}
+
+
+
+
+
+
+/* AdminDashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Light background for the body */
+}
+
+.dashboard-header {
+    background-color: rgb(27, 32, 43);/* Green background */
+  
+    color: white;
+    padding: 15px;
+    display: flex;
+   justify-content: center;
+    
+}
+
+.welcome-message {
+    font-size: 1.5em;
+    
+    
+    
+}
+
+
+
+.dashboard-container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #fff; /* White background for sidebar */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #4CAF50; /* Green color for links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #45a049; /* Darker green on hover */
+}
+
+.main-content {
+    flex: 1;
+    background-color: #fff; /* White background for main content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Space between sidebar and main content */
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column; /* Stack sidebar and content on smaller screens */
+    }
+
+    .sidebar {
+        width: 100%; /* Full width for sidebar */
+        margin-bottom: 20px; /* Space below sidebar */
+    }
+
+    .main-content {
+        margin-left: 0; /* No margin on smaller screens */
+    }
+}
+
+/* AdminHome.css */
+
+body {
+    background-color: #f8f9fa; /* Light background for the body */
+}
+
+#adminFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* AdminLogin.css */
+
+body {
+    background-color: #f8f9fa; /* Light background for the body */
+}
+
+#adminForm {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+#adminForm {
+    width: 100%;
+    max-width: 400px; /* Max width for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    color: #333; /* Darker text for the title */
+}
+
+button {
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+
+
+
+
+
+
+  .product-container {
+    background-color: whitesmoke;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-column {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.thumbnail {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.thumbnail:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.details-column {
+    padding-top: 30px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-price {
+    color: blue;
+}
+
+.add-to-cart-button {
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+#navbar {
+    background: linear-gradient(135deg, #001f4d, #418cef) !important;
+    color: white !important;
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff4d4d !important;
+    transition: color 0.3s;
+    font-style: italic;
+  }
+  .navbar-brand:hover {
+    color: #ff9999 !important;
+  }
+  .nav-links a {
+    color: white !important;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-links a:hover {
+    color: #ffcc00 !important;
+    transform: scale(1.1);
+  }
+  .cart-icon {
+    font-size: 24px;
+    position: relative;
+  }
+  .cart-icon:hover {
+    transform: scale(1.1);
+  }
+  .logout-btn {
+    margin-left: 10px;
+    background-color: #980707;
+    border: none;
+  }
+  .logout-btn:hover {
+    background-color: #ff3333;
+  }
+
+
+  
+
+
+
+
+  .hover-effect {
+    height: 230px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 5px solid transparent; /* Add border for better visibility */
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-title {
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+
+
+
+  /* Signup.css */
+.signup-container {
+    background-color: lightsteelblue ;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* max-width: 500px; */
+    margin: auto;
+    width: auto;
+   
+}
+
+
+.signup-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+
+.signup-form .form-label {
+    font-weight: bold;
+}
+
+.signup-form .form-control {
+    border-radius: 5px;
+}
+
+.signup-form button {
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .signup-form {
+        background-color: whitesmoke;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    
+
+
+
+}
+
+
+#box{
+    background: linear-gradient(135deg, #1c4b93, #418cef) !important;
+    height: "250px";
+    width: "50%";
+     cursor: "pointer";
+      transition: "transform 0.2s"
+}
+
+
+.Footer{
+    
+        width: 100%;
+       
+        background-color: rgb(27, 32, 43);
+        
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+    
+}
+.custom-toggler{
+   background-color: white!important;
+}
+
+#login {
+    background-image: url("/frontend/vite-project/src/assets/background img.jpg"); /* Ensure this path is correct */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.display-cards-page {
+    padding: 20px;
+  }
+  
+  .product-bg {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .product-bg-white {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+
+
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-section {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form {
+    flex: 1;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
